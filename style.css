@@ -116,3 +116,18 @@ img {
   font-weight: 700;
   line-height: normal;
 }
+
+.attribution {
+  color: var(--Grey, #7f7f7f);
+  font-size: 14px;
+  padding: 50px;
+  margin: auto;
+  width: 40%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  color: hsl(228, 45%, 44%);
+}
