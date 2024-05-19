@@ -1,0 +1,118 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--cream-bg, #f2eae2);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50%;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.column {
+  /* Make child elements have the same size */
+  flex-basis: 100%;
+}
+
+.column-right {
+  padding: 2px 25px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#perfume {
+  color: var(--Aurometal-Saurus, #6c7289);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Overline */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+
+  text-transform: uppercase;
+}
+
+#item {
+  color: var(--Gunmetal, #1c232b);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Display */
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 100% */
+}
+
+#description {
+  color: var(--Aurometal-Saurus, #6c7289);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Body */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 164.286% */
+}
+
+#price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.priceDisplay {
+  flex-basis: 100%;
+}
+
+#discount {
+  color: var(--Deep-Aquamarine, #3d8168);
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 100% */
+}
+
+#original {
+  color: var(--Aurometal-Saurus, #6c7289);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px; /* 176.923% */
+  text-decoration-line: line-through;
+  padding-left: 5%;
+}
+
+#cart {
+  background: var(--Deep-Aquamarine, #3d8168);
+  max-width: 70%;
+  margin: 0 auto;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+
+  color: white;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
